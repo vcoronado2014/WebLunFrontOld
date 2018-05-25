@@ -1,0 +1,6 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.no_padding_top_bot{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
