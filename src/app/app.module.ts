@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 //Rutas
 import { appRouting } from './app.routes';
@@ -31,7 +32,9 @@ import { EditarUsuariosComponent } from './components/editar-usuarios/editar-usu
   ],
   imports: [
     BrowserModule,
-    appRouting
+    appRouting,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -15,10 +15,7 @@
 {
     margin-bottom: 10px;
 }
-.form-signin .checkbox
-{
-    font-weight: normal;
-}
+
 .form-signin .form-control
 {
     position: relative;
@@ -70,13 +67,4 @@
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-}
-.need-help
-{
-    margin-top: 10px;
-}
-.new-account
-{
-    display: block;
-    margin-top: 10px;
 }
