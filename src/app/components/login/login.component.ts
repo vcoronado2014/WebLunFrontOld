@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ServicioLogin } from '../../services/servicio-login.service';
+
 
 @Component({
   selector: 'app-login',
@@ -11,7 +13,7 @@ export class LoginComponent implements OnInit {
   loginUsuario:string;
   loginContrasena:string;
 
-  constructor() { }
+  constructor( private login: ServicioLogin) { }
 
   ngOnInit() {
   }

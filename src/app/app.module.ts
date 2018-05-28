@@ -17,6 +17,10 @@ import { LoginComponent } from './components/login/login.component';
 import { MantenedorEntidadComponent } from './components/mantenedor-entidad/mantenedor-entidad.component';
 import { EditarUsuariosComponent } from './components/editar-usuarios/editar-usuarios.component';
 
+//Servicios
+import { ServicioLogin } from './services/servicio-login.service';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +40,9 @@ import { EditarUsuariosComponent } from './components/editar-usuarios/editar-usu
     FormsModule,
     ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [
+    ServicioLogin
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
