@@ -1,20 +1,31 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-//Bootstrap js components
-//import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-//import { TooltipModule } from 'ngx-bootstrap/tooltip';
-//import { ModalModule } from 'ngx-bootstrap/modal';
+//Rutas
+import { appRouting } from './app.routes';
 
+//Componentes
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './components/home/home.component';
+import { AdministracionWebComponent } from './components/administracion-web/administracion-web.component';
+import { AdministracionLunComponent } from './components/administracion-lun/administracion-lun.component';
+import { ReportesComponent } from './components/reportes/reportes.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    FooterComponent,
+    HomeComponent,
+    AdministracionWebComponent,
+    AdministracionLunComponent,
+    ReportesComponent
   ],
   imports: [
-    BrowserModule
-
+    BrowserModule,
+    appRouting
   ],
   providers: [],
   bootstrap: [AppComponent]
