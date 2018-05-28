@@ -12,6 +12,9 @@ import { HomeComponent } from './components/home/home.component';
 import { AdministracionWebComponent } from './components/administracion-web/administracion-web.component';
 import { AdministracionLunComponent } from './components/administracion-lun/administracion-lun.component';
 import { ReportesComponent } from './components/reportes/reportes.component';
+import { LoginComponent } from './components/login/login.component';
+import { MantenedorEntidadComponent } from './components/mantenedor-entidad/mantenedor-entidad.component';
+import { EditarUsuariosComponent } from './components/editar-usuarios/editar-usuarios.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { ReportesComponent } from './components/reportes/reportes.component';
     HomeComponent,
     AdministracionWebComponent,
     AdministracionLunComponent,
-    ReportesComponent
+    ReportesComponent,
+    LoginComponent,
+    MantenedorEntidadComponent,
+    EditarUsuariosComponent
   ],
   imports: [
     BrowserModule,

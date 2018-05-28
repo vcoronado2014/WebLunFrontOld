@@ -1,5 +1,7 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
-
+body{
+    padding-top: 70px;
+}
 .no_padding_top_bot{
     padding-top: 0 !important;
     padding-bottom: 0 !important;
